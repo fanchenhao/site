@@ -144,8 +144,8 @@ def tts_main(context):
     # context = input("请输入要转为语音的文字：\n")  
     # 测试时候在此处正确填写相关信息即可运行
     global wsParam, ws
-    wsParam = Ws_Param(APPID='5fdb43d9', APISecret='6fd31e32d7b4439830b1ac7b9f392192',
-                       APIKey='28a92eea623f8395642330eaae0ac0b0',
+    wsParam = Ws_Param(APPID='', APISecret='',
+                       APIKey='',
                        Text=context)
     
     websocket.enableTrace(False)
